@@ -9,7 +9,7 @@
 <body>
     <header>header</header>
     <div class="conta">
-        <?php include_once 'Pages/'.$data['inner'].'.php' ?>
+       /// hiện trang chủ hoặc trang mặc định với mọi trang khác
     </div>
     <footer>footer</footer>
 </body>
