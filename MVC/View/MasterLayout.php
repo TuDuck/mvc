@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header>hhh</header>
+    <header>header</header>
     <div class="conta">
         <?php include_once 'Pages/'.$data['inner'].'.php' ?>
     </div>
-    <footer>fff</footer>
+    <footer>footer</footer>
 </body>
 </html>

@@ -3,7 +3,7 @@ class Home extends controls{
     // các phương thức điều khiển
     function Get_data(){
         echo 'sss';
-        $sv = $this->mode("sinhvien");
+        $sv = $this->model("sinhvien");
 
 
         $this->view("MasterLayout", [
