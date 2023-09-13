@@ -1,20 +1,3 @@
 <?php
-class Home extends controls{
-    // các phương thức điều khiển
-    function Get_data(){
-        echo 'sss';
-        $sv = $this->model("sinhvien");
-
-
-        $this->view("masterLayout", [
-            "inner"=> "about"
-        ]);
-    }
-
-    function hello(){
-        echo "aaaaaa";
-    }
-}
-   
-    
-?>`
+/// folder để thực hiện phương thức với database
+?>
