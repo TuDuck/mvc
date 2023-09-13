@@ -1,3 +1,3 @@
 <?php
-/// folder để thực hiện phương thức với database
+/// folder để thực hiện phương thức gọi tới folder modul dùng  database
 ?>
