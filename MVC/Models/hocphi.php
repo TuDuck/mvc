@@ -1,8 +1,4 @@
 <?php 
-class hocphi extends connect {
-    public function getall(){
-        // $hien thi 
-    }
-}
+// folder để sử dụng các phương thức (vd : thêm sửa xóa ) trong DB
 
 ?>
