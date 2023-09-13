@@ -6,7 +6,7 @@ class Home extends controls{
         $sv = $this->model("sinhvien");
 
 
-        $this->view("MasterLayout", [
+        $this->view("masterLayout", [
             "inner"=> "about"
         ]);
     }
@@ -17,4 +17,4 @@ class Home extends controls{
 }
    
     
-?>
+?>`
