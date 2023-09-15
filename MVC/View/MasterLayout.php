@@ -25,34 +25,40 @@
    
     <div class="par-menu">
        <!-- hiện trang chủ hoặc trang mặc định với mọi trang khác -->
-        <table class="table-bordered tb-menu"  border="1">
-            <tr>
-                <td><a href="">trang chu</a></td>
-                <td><a href="">dang xuat</a></td>
-                <td><a href="">hoi dap</a></td>
-            </tr>
-        </table>
+       <nav class="con-menu navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">trang chu</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="#">quan ly sinh vien</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">quan ly lop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">quan ly nganh</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">quan ly hoc phan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">quan ly don gia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">quan ly hoc phi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">thong ke</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     </div>
     <div class="par-content">
-        <div class="left-content">
-            <table class="table-bordered tb-but" border="1">
-                <tr>
-                    <td><button>1</button></td>
-                </tr>
-                <tr>
-                    <td><button>2</button></td>
-                </tr>
-                <tr>
-                    <td><button>3</button></td>
-                </tr>
-                <tr>
-                    <td><button>4</button></td>
-                </tr>
-            </table>
-        </div>
-        <div class="right-content">
+       
             <?php include_once'./Pages/home.php' ?>
-        </div>
     </div>
 
    
