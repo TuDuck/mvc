@@ -25,7 +25,7 @@
    
     <div class="par-menu">
        <!-- hiện trang chủ hoặc trang mặc định với mọi trang khác -->
-       <nav class="con-menu navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+       <nav class="con-menu navbar navbar-expand-sm  bg-primary navbar-dark justify-content-center">
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
