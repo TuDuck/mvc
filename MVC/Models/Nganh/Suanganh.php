@@ -9,8 +9,8 @@ $data = mysqli_query($con, $sqltk);
 
 if (isset($_POST['btnSave'])) {
     $tn = $_POST['txtTennganh'];
-    $hk = $_POST['txtHk'];
-    $sqlup = "UPDATE nganh_hoc SET Tennganh ='$tn', Mahk='$hk' WHERE Manganh='$mn'";
+
+    $sqlup = "UPDATE nganh_hoc SET Tennganh ='$tn' WHERE Manganh='$mn'";
     $kq = mysqli_query($con, $sqlup);
     if ($kq)
         echo "<script>alert('Update ngành học thành công')</script>";

@@ -51,14 +51,14 @@
         <li>
             <a href="#">MÔN HỌC</a>
             <ul class="dropdown">
-                <li><a href="/mvc/MVC/Models/Mon/ListSj.php">LIST</a></li>
+                <li><a href="/MVC/Models/Mon/ListSj.php">LIST</a></li>
                 <li><a href="/mvc/MVC/Models/Mon/AddSJ.php">INSERT</a></li>
             </ul>
         </li>   
         <li>
             <a href="#">NGÀNH HỌC</a>
             <ul class="dropdown">
-                <li><a href="/mvc/MVC/Models/Nganh/ListNganh.php">LIST</a></li>
+                <li><a href="/MVC/Models/Nganh/ListNganh.php">LIST</a></li>
                 <li><a href="#">INSERT</a></li>
             </ul>
         </li>   <li>
